@@ -1,12 +1,15 @@
 import React from "react";
 import "./index.css";
-import Header from "./components/Header";
+import Nav from "./components/Nav";
+import About from "./components/About";
 
 function App() {
   return (
     <div>
-      <Header />
-      <main></main>
+      <Nav />
+      <main>
+        <About />
+      </main>
     </div>
   );
 }
