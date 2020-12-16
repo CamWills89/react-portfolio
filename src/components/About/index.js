@@ -19,7 +19,6 @@ function About() {
           <a
             href="https://drive.google.com/file/d/1eL7QXO2qeXAxT0zsOQHMCzylRCdyD-Am/view?usp=sharing"
             target="_blank"
-            class="btn"
           >
             My Resume
           </a>
