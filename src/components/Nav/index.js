@@ -15,7 +15,7 @@ function Nav(props) {
                 className="mx-2"
                 onClick={() => props.handlePageChange(tab)}
                 className={
-                  props.currentPage === tab ? "nav-link active" : "nav-link"
+                  props.currentPage === tab && " navActive"
                 }
               >
                 {tab}
