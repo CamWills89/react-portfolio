@@ -45,49 +45,28 @@ const projects = [
   },
 ];
 
-// function Projects(props) {
-//   console.log(projects);
-
-//   return (
-//     <div>
-//       {projects.map((project) => {
-//         return (
-//           <div key={project.name}>
-//             <img
-//               src={require(`../../assets/projects/${project.image}`)}
-//               alt={project.name}
-//             />
-//             <div>
-//               <h4>{project.name}</h4>
-//               <p>{project.description}</p>
-//             </div>
-//           </div>
-//         );
-//       })}
-//     </div>
-//   );
-// }
-
 function ProjectCard(props) {
   return (
     <div className="card-container">
-        <div className="card col-6">
-          <img
-            alt={props.name}
-            src={require(`../../assets/projects/${props.image}`)}
-            className="card-img"
-          />
+      <div className="card col-6">
+        <img
+          alt={props.name}
+          src={require(`../../assets/projects/${props.image}`)}
+          className="card-img"
+        />
+        <div>
           <h3 className="project-name">{props.name}</h3>
-          <p>{props.description}</p>
-          <a href={props.github} target="_blank" rel="noopener noreferrer">
-            Github
-          </a>
-          <div>
-            <a href={props.deployedapp} target="_blank" rel="noopener noreferrer">
-              Deployed Application
-            </a>
-          </div>
+          <p className="project-name">{props.description}</p>
         </div>
+        <a href={props.github} target="_blank" rel="noopener noreferrer">
+          Github
+        </a>
+        <div>
+          <a href={props.deployedapp} target="_blank" rel="noopener noreferrer">
+            Deployed Application
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
@@ -99,7 +78,7 @@ function Wrapper(props) {
 function Projects() {
   // Using useState, declare a new state variable 'projectsList' and set it to the 'projects' array from 'projects.json'
 
-  const [projectsList, setProjectsList] = useState(projects);
+  const [projectsList] = useState(projects);
 
   const renderProject = (project) => {
     return (
