@@ -9,11 +9,11 @@ function About() {
         <div>
           <p>
             My name is Cameron Wills. I am a Fullstack web developer. I am from
-            South Africa, living in Atlanta, GA, USA. The purpose of this
-            portfolio is to display my personal bio to whom ever is interested
+            South Africa, living in Atlanta, GA, USA. The
+            portfolio displays my personal bio to whom ever is interested
             in me for professional reasons. This will hopefully demonstrate who
-            I am as a professional web developer. This will demonstrate deployed
-            apps/work that I have previously done, my Curriculum Vitae and how
+            I am as a professional web developer. It demonstrates deployed
+            apps/work that I have done, my Curriculum Vitae and how
             to get in contact with me on multiple different platforms.
           </p>
           <a

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Portfolio() {
+function Projects(props) {
   const projects = [
     {
       name: "Auto Tracker",
@@ -41,11 +41,26 @@ function Portfolio() {
     },
   ];
 
+  console.log(projects);
+
   return (
-    <div className="flex-row container">
-      
+    <div>
+      {projects.map((project) => {
+        return (
+          <div key={project.name}>
+            <img
+              src={require(`../../assets/projects/${project.image}`)}
+              alt={project.name}
+            />
+            <div>
+              <h4>{project.name}</h4>
+              <p>{project.description}</p>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 }
 
-export default Portfolio;
+export default Projects;

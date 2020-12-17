@@ -1,7 +1,8 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Nav(props) {
-  const tabs = ["About Me", "Portfolio", "Skills", "Contact"];
+  const tabs = ["About", "Portfolio", "Skills", "Contact"];
   return (
     <header className="flex-row justify-content-space-between">
       <h1 className="my-5 px-1">Cameron Wills</h1>
@@ -9,7 +10,14 @@ function Nav(props) {
         <ul className="flex-row justify-content-space-between px-1">
           {tabs.map((tab) => (
             <li className="mx-2" key={tab}>
-              <a href={"#" + tab.toLowerCase()} className="mx-2">
+              <a
+                href={"#" + tab.toLowerCase()}
+                className="mx-2"
+                onClick={() => props.handlePageChange(tab)}
+                className={
+                  props.currentPage === tab ? "nav-link active" : "nav-link"
+                }
+              >
                 {tab}
               </a>
             </li>
