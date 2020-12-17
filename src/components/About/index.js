@@ -4,7 +4,7 @@ import profileImage from "../../assets/profile/Profile.JPG";
 function About() {
   return (
     <section className="">
-      <h1 id="header">Cameron Wills</h1>
+      <h1 className="project-list" id="header">Cameron Wills</h1>
 
       <div className="row">
         <div className="col-4 ip-picture">
@@ -22,13 +22,13 @@ function About() {
             my Curriculum Vitae and how to get in contact with me on multiple
             different platforms.
           </p>
-          <a
+          {/* <a
             href="https://drive.google.com/file/d/1eL7QXO2qeXAxT0zsOQHMCzylRCdyD-Am/view?usp=sharing"
             target="_blank"
             id="resume"
           >
             My Resume
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

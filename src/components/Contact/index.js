@@ -57,7 +57,7 @@ function Contact() {
 
   return (
     <section className="">
-      <h1 className="contact-container">Contact</h1>
+      <h1 className="contact-container" id="header">Contact</h1>
       <form id="contact-form" className="contact-form" onSubmit={handleSubmit}>
         {/* // name input
                 // email input

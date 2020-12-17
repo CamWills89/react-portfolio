@@ -48,24 +48,26 @@ const projects = [
 function ProjectCard(props) {
   return (
     <div className="card-container">
-      <div className="card col-6">
-        <img
-          alt={props.name}
-          src={require(`../../assets/projects/${props.image}`)}
-          className="card-img"
-        />
+      <div className="card col-9">
+        <a href={props.deployed} target="_blank" rel="noopener noreferrer">
+          <img
+            alt={props.name}
+            src={require(`../../assets/projects/${props.image}`)}
+            className="card-img"
+          />
+        </a>
+
+        <h1 className="project-card">{props.name}</h1>
         <div>
-          <h3 className="project-card">{props.name}</h3>
           <p className="project-card">{props.description}</p>
         </div>
         <a href={props.github} target="_blank" rel="noopener noreferrer">
-          Github
+          <img
+            alt="Github"
+            className="github"
+            src={require("../../assets/icons/github.svg")}
+          />
         </a>
-        <div>
-          <a href={props.deployed} target="_blank" rel="noopener noreferrer">
-            Deployed Application
-          </a>
-        </div>
       </div>
     </div>
   );
@@ -97,7 +99,9 @@ function Projects() {
 
   return (
     <Wrapper>
-      <h1 className="project-list">Project List</h1>
+      <h1 className="project-list" id="header">
+        Project List
+      </h1>
 
       {projectsList.map((project) => renderProject(project))}
     </Wrapper>
