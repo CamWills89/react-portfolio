@@ -55,14 +55,14 @@ function ProjectCard(props) {
           className="card-img"
         />
         <div>
-          <h3 className="project-name">{props.name}</h3>
-          <p className="project-name">{props.description}</p>
+          <h3 className="project-card">{props.name}</h3>
+          <p className="project-card">{props.description}</p>
         </div>
         <a href={props.github} target="_blank" rel="noopener noreferrer">
           Github
         </a>
         <div>
-          <a href={props.deployedapp} target="_blank" rel="noopener noreferrer">
+          <a href={props.deployed} target="_blank" rel="noopener noreferrer">
             Deployed Application
           </a>
         </div>
@@ -84,10 +84,11 @@ function Projects() {
     return (
       <ProjectCard
         name={project.name}
+        description={project.description}
         image={project.image}
         id={project.id}
         github={project.github}
-        deployedapp={project.deployedapp}
+        deployed={project.deployed}
         key={project.id}
       />
     );

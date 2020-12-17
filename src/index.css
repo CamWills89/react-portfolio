@@ -6,12 +6,11 @@ main {
 
 :root {
   --primary: #023e7d;
-  --tertiary: #b12704;
+  --tertiary: rgb(238, 166, 84);
   --light: whitesmoke;
-  --dark: #002855;
+  --dark: #011731;
   --darker: #23314b;
   --error: rgb(228, 46, 1);
-  --nav: rgb(238, 166, 84);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
@@ -45,17 +44,19 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 600;
   margin: 5px 10px;
-  line-height: 1.50;
+  line-height: 1.5;
   color: whitesmoke;
 }
 
+#header {
+  font-size: 4rem;
+}
 
-
-h2 {
-  font-size: 2rem;
+#about {
+  font-size: 3rem;
 }
 
 h3 {
@@ -74,8 +75,10 @@ h6 {
   font-size: 1rem;
 }
 
+#about-me,
+li,
 p {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   margin-top: 0;
   margin: 5px 10px;
   color: whitesmoke;
@@ -92,12 +95,11 @@ a:hover {
   text-decoration: underline;
 }
 
-
 button {
   font-size: 1rem;
   text-decoration: none;
   padding: 0.25rem 1rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   border: none;
   outline: none;
   cursor: pointer;
@@ -118,16 +120,13 @@ button {
   justify-content: flex-end;
 }
 
-
-
 a {
-	border-radius: 5px;
-	color: var(--primary);
-	font-weight: 600;
-	padding: 2px 4px;
-	margin-left: -2px;
-	margin-right: -2px;
-	
+  border-radius: 5px;
+  color: var(--primary);
+  font-weight: 600;
+  padding: 2px 4px;
+  margin-left: -2px;
+  margin-right: -2px;
 }
 
 /**************** ip modifications **********************/
@@ -140,7 +139,6 @@ a {
 
 .navActive {
   color: var(--primary);
-
 }
 
 .active {
@@ -148,11 +146,10 @@ a {
 }
 
 .nav:hover {
-  font-size:35px;
+  font-size: 35px;
   border-radius: 10%;
   padding: 10px;
-  opacity: .8;
-
+  opacity: 0.8;
 }
 
 .hero {
@@ -176,8 +173,6 @@ a {
   flex-direction: row;
   justify-content: flex-start;
   border-left: 0.5px solid;
-
-
 }
 
 .col-6 {
@@ -185,7 +180,7 @@ a {
 }
 
 .footer {
-  padding: 50px;;
+  padding: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -200,7 +195,8 @@ a {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
+  
 }
 
 .card {
@@ -210,27 +206,26 @@ a {
   margin: 10px;
   border-radius: 10%;
   opacity: 0.7;
-
 }
 
 .card-img {
   width: 100%;
-  border-radius:10%
-
+  border-radius: 10%;
 }
 
 .card:hover {
-  opacity: 1.0;
+  opacity: 1;
   transition: ease-in;
   background-color: var(--tertiary);
   transition: width 2s, height 2s, transform 2s ease-in;
-
 }
-
-
 
 .project-list {
   border-bottom: 1px solid;
+}
+
+.project-card {
+  color: var(--dark);
 }
 
 .contact-container {
@@ -247,12 +242,24 @@ a {
 }
 
 .header-space {
-  padding: 20px 10px ;
+  padding: 20px 10px;
   margin: 10px;
+  font-size: 2rem;
+}
+
+.front {
+  margin: 0 5rem;
+  background-color: rgb(250, 243, 243, 0.2);
+  border-radius: 10%;
+}
+.back {
+  margin: 0 5rem;
+  background-color: rgb(250, 243, 243, 0.2);
+  border-radius: 10%;
 }
 
 .form-input:hover {
-  opacity: 1.0;
+  opacity: 1;
   transition: ease-in;
   background-color: var(--quaternary);
   transition: width 2s, height 2s, transform 2s ease-in;
@@ -274,32 +281,31 @@ input {
 
 input:focus {
   border: 1px solid var(--secondary);
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
 
 textarea {
-	width: 600px;
-	height: 120px;
+  width: 600px;
+  height: 120px;
   padding: 5px;
   border: 1px solid var(--primary);
   border-radius: 10%;
 }
 
 button {
-	background: var(--primary);
-	border: 0;
+  background: var(--primary);
+  border: 0;
   border-radius: 30%;
-	color: #fff;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: 600;
-	margin-bottom: 30px;
-  padding: 10px 15px;	
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 10px 15px;
   width: 600px;
 }
 
 button:hover {
-  opacity: .8;
-  font-size:20px;
-  
+  opacity: 0.8;
+  font-size: 20px;
 }
