@@ -29,3 +29,10 @@ App {
     opacity: 0.5;
   }
 }
+
+@media (max-width:900px) {
+.scrollTop {
+  display: none;
+  position: unset; 
+}
+}

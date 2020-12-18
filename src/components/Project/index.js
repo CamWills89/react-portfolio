@@ -59,7 +59,7 @@ function ProjectCard(props) {
 
         <h1 className="project-card">{props.name}</h1>
         <div>
-          <p className="project-card">{props.description}</p>
+          <p id="project-description"className="project-card">{props.description}</p>
         </div>
         <a href={props.github} target="_blank" rel="noopener noreferrer">
           <img

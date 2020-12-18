@@ -56,7 +56,7 @@ function Contact() {
   }
 
   return (
-    <section className="">
+    <section className="contact-section">
       <h1 className="contact-container" id="header">
         Contact
       </h1>
@@ -108,7 +108,9 @@ function Contact() {
             </div>
           )}
         </div>
-        <button type="submit">Submit</button>
+        <button className="submit-button" type="submit">
+          Submit
+        </button>
       </form>
     </section>
   );

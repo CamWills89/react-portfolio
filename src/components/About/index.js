@@ -4,11 +4,18 @@ import profileImage from "../../assets/profile/Profile.JPG";
 function About() {
   return (
     <section>
-      <h1 className="project-list" id="header">Cameron Wills</h1>
+      <h1 className="project-list" id="header">
+        Cameron Wills
+      </h1>
 
-      <div className="row">
-        <div className="col-4 ip-picture">
-          <img src={profileImage} className="ip-picture" alt="cameron-wills" />
+      <div className="row" id="about-container">
+        <div className="col-4 ip-picture" id="ip-picture">
+          <img
+            src={profileImage}
+            className="ip-picture"
+            id="ip-picture"
+            alt="cameron-wills"
+          />
         </div>
 
         <div className="col-7 ip-desc">
