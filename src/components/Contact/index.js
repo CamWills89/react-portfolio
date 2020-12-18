@@ -62,7 +62,7 @@ function Contact() {
       </h1>
       <form id="contact-form" className="contact-form" onSubmit={handleSubmit}>
         <div>
-          <label id="" htmlFor="name">
+          <label id="contact-text" htmlFor="name">
             Name:
           </label>
         </div>
@@ -76,7 +76,9 @@ function Contact() {
           />
         </div>
         <div>
-          <label htmlFor="email">Email Address:</label>
+          <label id="contact-text" htmlFor="email">
+            Email Address:
+          </label>
         </div>
         <div>
           <input
@@ -88,7 +90,9 @@ function Contact() {
           />
         </div>
         <div>
-          <label htmlFor="message">Message:</label>
+          <label id="contact-text" htmlFor="message">
+            Message:
+          </label>
         </div>
         <div>
           <textarea

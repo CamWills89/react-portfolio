@@ -44,7 +44,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6{
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 600;
   margin: 5px 10px;
@@ -173,7 +173,8 @@ a {
   justify-content: center;
 }
 
-#resume-text {
+#resume-text,
+#contact-text  {
   font-size: 2rem;
   color: whitesmoke;
   text-decoration: none;
@@ -319,7 +320,7 @@ textarea {
 }
 
 button {
-  background: var(--primary);
+  background: rgba(6, 5, 56);
   border: 0;
   border-radius: 30%;
   color: #fff;
