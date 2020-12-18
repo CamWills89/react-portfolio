@@ -163,9 +163,9 @@ a {
   border-left: 0.5px solid whitesmoke;
 }
 
-.col-6 {
+/* .col-6 {
   max-width: 100%;
-}
+} */
 
 .resume-link {
   padding: 1.5rem;
@@ -191,6 +191,7 @@ a {
 .footer-img {
   width: 35%;
   border-radius: 10%;
+  transition: all 0.3s;
 }
 
 .github {
@@ -199,7 +200,8 @@ a {
   transition: all 0.3s;
 }
 
-.github:hover{
+.github:hover,
+.footer-img:hover {
   transform: scale(1.2);
 }
 
@@ -207,7 +209,9 @@ a {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  flex-flow: row wrap;
+  overflow: auto;
+  justify-content: space-around;
 }
 
 .card {
@@ -227,7 +231,7 @@ a {
 }
 
 .card-img:hover {
-  transform: scale(1.03);
+  transform: scale(1.02);
 }
 
 .card:hover {

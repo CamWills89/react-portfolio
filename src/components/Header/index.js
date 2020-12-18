@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import About from "../About";
 import Nav from "../Nav";
 import Projects from "../Project";
@@ -52,6 +52,11 @@ const projects = [
 function Portfolio() {
   const [currentPage, handlePageChange] = useState("About");
 
+  //set the title of the tab to the current page
+  useEffect(() => {
+    document.title = currentPage;
+  });
+
   const renderPage = () => {
     // Add a switch statement that will return the appropriate component of the 'currentPage'
     switch (currentPage) {
@@ -59,7 +64,7 @@ function Portfolio() {
         return <About />;
 
       case "Portfolio":
-        return <Projects projects={projects}/>;
+        return <Projects projects={projects} />;
 
       case "Contact":
         return <Contact></Contact>;

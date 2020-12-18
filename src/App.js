@@ -1,19 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 import "./index.css";
-// import Nav from "./components/Nav";
-// import About from "./components/About";
-// import Projects from "./components/Project";
 import Portfolio from "./components/Header";
 import Footer from "./components/Footer";
-
-
+import ScrollArrow from "./components/ScrollToTop";
 
 function App() {
+ 
+
   return (
     <>
       <div>
-        <Portfolio/>
-        <Footer/>
+        <Portfolio />
+        <Footer />
+        <ScrollArrow />
       </div>
     </>
   );

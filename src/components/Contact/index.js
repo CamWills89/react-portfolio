@@ -57,13 +57,14 @@ function Contact() {
 
   return (
     <section className="">
-      <h1 className="contact-container" id="header">Contact</h1>
+      <h1 className="contact-container" id="header">
+        Contact
+      </h1>
       <form id="contact-form" className="contact-form" onSubmit={handleSubmit}>
-        {/* // name input
-                // email input
-                // message text area */}
         <div>
-          <label htmlFor="name">Name:</label>
+          <label id="" htmlFor="name">
+            Name:
+          </label>
         </div>
         <div>
           <input

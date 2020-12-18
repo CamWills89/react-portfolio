@@ -74,7 +74,7 @@ function ProjectCard(props) {
 }
 
 function Wrapper(props) {
-  return <div className="">{props.children}</div>;
+  return <div className="wrapper">{props.children}</div>;
 }
 
 function Projects() {
