@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Cameron Wills -  Portfolio with React.JS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description:
+My name is Cameron Wills. I am a Fullstack web developer. I am from South Africa, living in Atlanta, GA, USA. The portfolio displays my personal bio to whom ever is interested in me for professional reasons. This will hopefully demonstrate who I am as a professional web developer. It demonstrates deployed apps/work that I have done, my Curriculum Vitae and how to get in contact with me on multiple different platforms
 
-## Available Scripts
+  # Table of Contents
 
-In the project directory, you can run:
+  - [Installation](#installation)
+  - [Technologies](#technologies)
+  - [Credits](#credits)
+  - [License](#license)
+  - [Contribution](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
+  - [Screenshots](#screenshots)
 
-### `npm start`
+  ## Installation:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+   Make sure you have MongoDB installed on your machine (if you don't, follow the instructions on the MongoDB Website). Clone the repo. Install dependencies with npm -i. Run ```npm start``` to run the server. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies
+  - JavaScript
+  - React.Js
+  - HTML/CSS
 
-### `npm run build`
+  ## Credits:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  Made by Cameron Wills
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  ## License:
 
-### `npm run eject`
+  For more information about licenses, please visit:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  [License](https://opensource.org/licenses/MIT)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  ## Contributing:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
+  
+  The project is open-source
 
-## Learn More
+  ## Screenshots
+  ![Home](https://user-images.githubusercontent.com/68020747/102699020-aa0f3c80-420f-11eb-82c2-c2c15d2d89de.PNG)
+  ![project list](https://user-images.githubusercontent.com/68020747/102699022-ab406980-420f-11eb-9ef7-681035b37b6c.PNG)
+  ![skills](https://user-images.githubusercontent.com/68020747/102699023-ac719680-420f-11eb-952c-ac310dc6b914.PNG)
+  ![backend](https://user-images.githubusercontent.com/68020747/102699024-ada2c380-420f-11eb-898f-10e1159e5c84.PNG)
+  
+  ## Tests:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  no testing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  
+  ## Questions:
 
-### Code Splitting
+  For any questions you may have, please visit my Github profile:
+  - [Github Profile](https://github.com/CamWills89)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  If you have any additional questions, feel free to email them to me:
+  - [Email](cameron.wills89@outlook.com)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
