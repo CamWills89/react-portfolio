@@ -6,7 +6,7 @@ const Ul = styled.ul`
   display: flex;
   flex-flow: row nowrap;
 
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     flex-flow: column nowrap;
     background-color: rgba(6, 5, 56, 0.4);
     position: fixed;
@@ -21,18 +21,18 @@ const Ul = styled.ul`
   }
 `;
 
-const RightNav = (props) => {
-  console.log("RightNav props", props);
+const RightNav = ({ open, handlePageChange, currentPage }) => {
+//   console.log("RightNav props", props);
   const tabs = ["About", "Portfolio", "Skills", "Contact"];
   return (
-    <Ul open={props.open} className="nav">
+    <Ul open={open} className="nav">
       {tabs.map((tab) => (
         <li className="" key={tab}>
           <a
             href={"#" + tab.toLowerCase()}
-            onClick={() => props.handlePageChange(tab)}
+            onClick={() => handlePageChange(tab)}
             className={
-              props.currentPage === tab ? "nav-link active" : "nav-link"
+              currentPage === tab ? "nav-link active" : "nav-link"
             }
           >
             {tab}
