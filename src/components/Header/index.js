@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import About from "../About";
-import Nav from "../Nav";
+import Navbar from "../Nav";
 import Projects from "../Project";
 import Contact from "../Contact";
 import Technologies from "../Skills";
@@ -79,7 +79,7 @@ function Portfolio() {
 
   return (
     <div>
-      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       <div>
         {
           // Render the component returned by 'renderPage()'

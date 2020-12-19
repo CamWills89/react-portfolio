@@ -9,7 +9,7 @@ function About() {
       </h1>
 
       <div className="row" id="about-container">
-        <div className="col-4 ip-picture" id="ip-picture">
+        <div className="col-4" id="">
           <img
             src={profileImage}
             className="ip-picture"

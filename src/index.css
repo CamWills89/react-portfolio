@@ -54,6 +54,7 @@ h6 {
 
 #header {
   font-size: 4rem;
+  color: var(ter);
 }
 
 #about {
@@ -331,22 +332,48 @@ button:hover {
   .resume-main,
   #header,
   .contact-container,
-  .project-list,
-  .header {
+  .project-list
+  {
     width: 100%;
     height: 100%;
     display: grid;
     justify-content: center;
     align-items: center;
+    
+  }
+  #header {
+    display: flex;
+    font-size: 3rem;
   }
 
   #about-container {
-    display: flex;
+    display: block;
+  }
+  #ip-picture {
+    width: 10rem;
+    height: 100%;
+
+  }
+
+  .ip-desc {
+   border-left: none;
+   margin: auto;
   }
 
   #about {
     font-size: 2.5rem;
+    border: none;
+
   }
+   #about-me {
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+    background-color: rgba(6, 5, 56, 0.5);
+    font-weight: bold;
+    border-radius: 5%;
+  }
+
   
   .front-flip-button,
   .back-flip-button,
@@ -364,13 +391,7 @@ button:hover {
     display: none;
   }
 
-  #about-me {
-    padding: 10px;
-    font-size: 1.2rem;
-    background-color: rgba(6, 5, 56, 0.5);
-    font-weight: bold;
-    border-radius: 5%;
-  }
+ 
   #contact-text {
     font-size: 1.3rem;
   }
