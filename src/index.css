@@ -139,10 +139,9 @@ a {
 .nav-link:hover {
   color: var(--tertiary);
 }
-
-.ip-picture {
+ 
+#ip-picture {
   padding: 10px;
-  margin: 10px 0px;
   flex-direction: row;
   justify-content: flex-start;
   width: 100%;
@@ -150,6 +149,7 @@ a {
   border-radius: 12%;
   box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
 }
+
 
 .ip-desc {
   padding: 10px;
@@ -179,10 +179,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 20px;
+  background-color: rgba(6, 5, 56, 0.4);
 }
 
 .footer-img {
-  width: 35%;
+  width: 30%;
   border-radius: 10%;
   transition: all 0.3s;
 }

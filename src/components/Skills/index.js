@@ -36,7 +36,7 @@ function Technologies() {
 
           <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
             <div className="front location-front-item">
-              <h5 className="header-space">Frontend Tech:</h5>
+              <h5 className="header-space">Front-end Tech:</h5>
               <ul>
                 <li id="skill-list">JavaScript/jQuery</li>
                 <li id="skill-list">HTML</li>
@@ -47,12 +47,12 @@ function Technologies() {
                 <li id="skill-list">Chrome Dev Tools</li>
               </ul>
               <button className="front-flip-button" onClick={handleFlip}>
-                Click to see Backend!
+                Click to see Back-end!
               </button>
             </div>
 
             <div className="back location-back-item">
-              <h5 className="header-space">Backend Tech:</h5>
+              <h5 className="header-space">Back-end Tech:</h5>
               <ul id="skill-list">
                 <li id="skill-list">SQL</li>
                 <li id="skill-list">APIs</li>
@@ -63,7 +63,7 @@ function Technologies() {
                 <li id="skill-list">Node</li>
               </ul>
               <button className="back-flip-button" onClick={handleFlip}>
-                Click to see Frontend!
+                Click to see Front-end!
               </button>
             </div>
           </ReactCardFlip>
