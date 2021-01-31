@@ -22,7 +22,6 @@ const Ul = styled.ul`
 `;
 
 const RightNav = ({ open, handlePageChange, currentPage }) => {
-//   console.log("RightNav props", props);
   const tabs = ["About", "Portfolio", "Skills", "Contact"];
   return (
     <Ul open={open} className="nav">

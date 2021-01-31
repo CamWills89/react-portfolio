@@ -41,7 +41,6 @@ const StyledBurger = styled.div`
 `;
 
 const Burger = (props) => {
-  console.log("Burger props", props);
   const [open, setOpen] = useState(false);
 
   return (

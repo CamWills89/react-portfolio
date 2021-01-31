@@ -12,7 +12,6 @@ const Nav = styled.nav`
 `
 
 const Navbar = (props) => {
-  console.log("Navbar Props", props);
   return (
     <Nav>
       <div></div>
