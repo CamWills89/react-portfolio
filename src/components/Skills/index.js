@@ -55,12 +55,12 @@ function Technologies() {
               <h5 className="header-space">Back-end Tech:</h5>
               <ul id="skill-list">
                 <li id="skill-list">SQL</li>
-                <li id="skill-list">APIs</li>
-                <li id="skill-list">REST</li>
+                <li id="skill-list">RESTful APIs</li>
                 <li id="skill-list">MongoDB, Mongoose</li>
                 <li id="skill-list">MySQL, Sequelize</li>
                 <li id="skill-list">Express</li>
                 <li id="skill-list">Node</li>
+                <li id="skill-list">GraphQL</li>
               </ul>
               <button className="back-flip-button" onClick={handleFlip}>
                 Click to see Front-end!
